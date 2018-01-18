@@ -1,0 +1,29 @@
+    <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}/" />
+    <meta name="referrer" content="origin" />
+
+    <meta property="og:site_name" content="{{ site.name }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ site.name }}" />
+    <meta property="og:description" content="{{ site.description }}" />
+    <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}/" />
+
+    <!-- Twitter card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{ site.name }}" />
+    <meta name="twitter:description" content="{{ site.description }}" />
+    <meta name="twitter:url" content="{{ site.url }}{{ site.baseurl }}/" />
+
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Website",
+    "publisher": "{{ site.name }}",
+    "url": "{{ site.url }}{{ site.baseurl }}/",
+    "description": "{{ site.description }}"
+}
+    </script>
+
+    <meta name="generator" content="Jekyll v{{ jekyll.version }}" />
+    <link href='//fonts.googleapis.com/css?family=Lato:300,400,700|Oxygen:400,700' rel='stylesheet' type='text/css'>
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}{{ site.baseurl }}/rss/mozilla/" />
+
