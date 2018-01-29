@@ -19,10 +19,7 @@ git merge FETCH_HEAD
 ### Rebase a Pull Request
 
 ```
-git checkout master
-git pull git@github.com:devtools-html/debugger.html.git
 git checkout <branch name>
-git rebase master
-git merge-base origin/master head
+git pull git@github.com:devtools-html/debugger.html.git --rebase
 git push -f origin <branch name> --no-verify
 ```
