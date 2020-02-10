@@ -975,6 +975,10 @@ body:not(.post-template) .post-title {
   line-height: 1.7em;
 }
 
+#home a {
+  text-decoration: none;
+}
+
 .read-more {
   text-decoration: none;
 }
