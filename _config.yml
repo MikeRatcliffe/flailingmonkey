@@ -1,18 +1,18 @@
 name: Ramblings of a Madman
-description: General Ramblings About all things JavaScript and Firefox Developer Tools
+description: General Ramblings About all things JavaScript and Browser Developer Tools
 
 safe: false
 lsi: false
 
-language: 'en-uk'
+language: "en-uk"
 
-author: 'Mike Ratcliffe'
-nickname: 'mikeratcliffe'
-bio: 'Mozilla developer.'
-location: 'Corby UK'
-image: 'https://avatars0.githubusercontent.com/u/116941?v=3&s=460'
+author: "Mike Ratcliffe"
+nickname: "mikeratcliffe"
+bio: "Full Stack JavaScript Developer."
+location: "Corby UK"
+image: "https://avatars0.githubusercontent.com/u/116941?v=3&s=460"
 
-short_url: 'flailingmonkey.com'
+short_url: "flailingmonkey.com"
 google_analytics: UA-5877089-2
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
@@ -24,29 +24,23 @@ twitter: ratcliffe_mike
 # http://www.barryclark.com). Used for Sitemap.xml and your RSS feed.
 url: http://flailingmonkey.com
 
-destination: './_site'
+destination: "./_site"
 
 # edit baseurl to simply '/' if using as your personal page (instead of a
 # project page)
-baseurl: ''
-
-markdown: KramdownPygments
-kramdown:
-  input: GFM
-  default_lang: javascript
+baseurl: ""
 
 permalink: /:title/
 
 defaults:
-  -
-    scope:
-      path: ''
-      type: 'posts'
+  - scope:
+      path: ""
+      type: "posts"
     values:
-      layout: 'post'
+      layout: "post"
       cover: false
-      category: 'mikeratcliffe'
-      subclass: 'post'
+      category: "mikeratcliffe"
+      subclass: "post"
       navigation: true
 
 tag_permalink_style: pretty
@@ -56,12 +50,12 @@ tag_feed_layout: tag_feed
 tag_feed_dir: rss
 
 sitemap:
-    file: '/sitemap.xml'
-    exclude:
-      - '/rss.xml'
-    include_posts: '/index.html'
-    change_frequency_name: 'change_frequency'
-    priority_name: 'priority'
+  file: "/sitemap.xml"
+  exclude:
+    - "/rss.xml"
+  include_posts: "/index.html"
+  change_frequency_name: "change_frequency"
+  priority_name: "priority"
 
 exclude:
   - README.md
@@ -69,6 +63,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - changelog.md
-  - '*.Rmd'
+  - "*.Rmd"
   - vendor
   - .travis.yml

@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.6.2"
+gem "jekyll", "~> 4.0.0"
 
 group :jekyll_plugins do
   gem "html-proofer"
@@ -8,5 +8,4 @@ group :jekyll_plugins do
   gem "kramdown"
   gem "minitest-reporters"
   gem "minitest"
-  gem "pygments.rb"
 end
