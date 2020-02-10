@@ -2,7 +2,10 @@
 .DS_Store
 
 # Jekyll build
-/_site/
+/_site/*
+!/_site
+!/_site/index.html
+.jekyll-cache
 .jekyll-metadata
 
 # others
