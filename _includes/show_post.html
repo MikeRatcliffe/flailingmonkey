@@ -1,23 +1,37 @@
 <article class="post">
-    <a href="{{ site.baseurl }}{{ post.url }}">
-        <header class="post-header">
-            <h2 class="post-title">{{ post.title }}</h2>
-        </header>
-        <section class="post-excerpt">
-            <div class="featured-image-container">
-                <img src="{% if post.featuredimage %}{{ site.baseurl }}/assets/images/{{ post.featuredimage }}{% else %}{{ site.baseurl }}/assets/images/no-image.gif{% endif %}" class="featured-image" alt="{{ post.title }}">
-            </div>
-            <p>{{ post.content | strip_html | truncatewords: 73 }} &raquo;</p>
-        </section>
-    </a>
-    <footer class="post-meta">
-        {% if site.image %}<img class="author-thumb" src="{{ site.image }}" alt="Author image" nopin="nopin" />{% endif %}
-        <!-- author -->
-        <a href='{% if site.twitter %}https://twitter.com/{{ site.twitter }}{% else %}#{% endif %}'>{{ site.author }}</a>
-        <!-- [[tags prefix=" on "]] -->
-        {% if post.tags %}
-            <span class="tags">{{ post | tags }}</span>
-        {% endif %}
-        <time class="post-date" datetime="{{ post.date | date:'%Y-%m-%d' }}">{{ post.date | date_to_string }}</time>
-    </footer>
+  <a href="{{ site.baseurl }}{{ post.url }}">
+    <header class="post-header">
+      <h2 class="post-title">{{ post.title }}</h2>
+    </header>
+    <section class="post-excerpt">
+      <div class="featured-image-container">
+        <img
+          src="{% if post.featuredimage %}{{ site.baseurl }}/assets/images/{{ post.featuredimage }}{% else %}{{ site.baseurl }}/assets/images/no-image.gif{% endif %}"
+          class="featured-image"
+          alt="{{ post.title }}"
+        />
+      </div>
+      <p>{{ post.content | strip_html | truncatewords: 45 }} &raquo;</p>
+    </section>
+  </a>
+  <footer class="post-meta">
+    {% if site.image %}<img
+      class="author-thumb"
+      src="{{ site.image }}"
+      alt="Author image"
+      nopin="nopin"
+    />{% endif %}
+    <!-- author -->
+    <a
+      href="{% if site.twitter %}https://twitter.com/{{ site.twitter }}{% else %}#{% endif %}"
+      >{{ site.author }}</a
+    >
+    <!-- [[tags prefix=" on "]] -->
+    {% if post.tags %}
+    <span class="tags">{{ post | tags }}</span>
+    {% endif %}
+    <time class="post-date" datetime="{{ post.date | date:'%Y-%m-%d' }}"
+      >{{ post.date | date_to_string }}</time
+    >
+  </footer>
 </article>
