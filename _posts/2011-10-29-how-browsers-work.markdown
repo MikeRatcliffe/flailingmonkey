@@ -24,10 +24,6 @@ This comprehensive primer on the internal operations of WebKit and Gecko is the 
 
 Tali published her research on [her site](http://taligarsiel.com/), but we knew it deserved a larger audience, so we've cleaned it up and republished it here. As a web developer, **learning the internals of browser operations helps you make better decisions and know the justifications behind development best practices**.
 
-You can also watch Tali Garsiel give a talk on this topic on Vimeo:
-
-<iframe src="//player.vimeo.com/video/44182484" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-
 While this is a rather lengthy document, we recommend you spend some time digging in; we guarantee you'll be glad you did.
 
 ## Introduction
