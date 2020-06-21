@@ -1,8 +1,8 @@
 ---
 title: How well does your browser protect your privacy?
-date: '2012-08-05 09:22:00'
+date: "2012-08-05 09:22:00"
 tags:
-- Mozilla
+  - Mozilla
 current: howwelldoesyourbrowserprotectyourprivacy
 featuredimage: how-well-does-your-browser-protect-your-privacy.jpg
 ---
@@ -41,6 +41,8 @@ So, why don't we just use HTTPS all of the time, would that not solve all of our
 
 A useful Firefox extension that will use HTTPS versions of a site whenever available is [HTTPS Everywhere](https://www.eff.org/https-everywhere "HTTP Anywhere"). I would certainly suggest using it, after it is installed you will find that a large amount of sites will automatically run using HTTPS.
 
+There is an excellent article that explains why you would would want to encrypt your internet traffic on Pixel Privacy's website [here](https://pixelprivacy.com/resources/how-to-encrypt-your-traffic/).
+
 Another issue that plagues the internet today is website spoofing / phishing. Website spoofers create websites that looks very similar to a site that you commonly use with the soul purpose of gaining information about you. In the last couple of years sites that directly ask you for information such as bank or credit card details have become more popular. An example of this kind of site can be found [here](http://ismycreditcardstolen.com "Is my credit card stolen"). The page does not submit any information, in fact you don't really need to enter anything, it is designed as a teaching aid. Try it, you can trust it... honest (to be safe don't use your real information).
 
 Compared to the illegal vulnerabilities that we face, tracking is not such a worry but more of an irritating abuse of privacy. Google, Facebook, Twitter and others make money by providing users with a free service in return for information about them. This information is either used by the sites themselves or sold to other sites in order to better target you with adverts that they believe that you will respond to. This video highlights this issue in quite an eye opening way:
@@ -75,12 +77,12 @@ How do you enable "Do not track?" Simple, watch this video:
 
 In fact, if you want to go all out against tracking and advertising you could also install these Firefox extensions:
 
-* [HTTPS Everywhere](https://www.eff.org/https-everywhere) - As mentioned above, HTTPS Everywhere is a Firefox and Chrome extension that encrypts your communications with many major websites, making your browsing more secure. It is available for Firefox and Chrome bug due to a Chrome bug has far better stability in Firefox.
-* [Adblock Plus](https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/?src=cb-dl-users) - Annoyed by adverts? Troubled by tracking? Bothered by banners? Install Adblock Plus now to regain control of the internet and change the way that you view the web.
-* [Better Privacy](https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/?src=cb-dl-users) - Remove or manage a new and uncommon kind of cookies, better known as LSO's (mentioned above when talking about zombie cookies). The BetterPrivacy safeguard offers various ways to handle Flash-cookies set by Google, YouTube, Ebay and others ...
-* [Ghostery](https://addons.mozilla.org/en-US/firefox/addon/ghostery/?src=cb-dl-users) - Ghostery sees the "invisible" web, detecting trackers, web bugs, pixels, and beacons placed on web pages by Facebook, Google Analytics, and over 1,000 other ad networks, behavioral data providers, web publishers - all companies interested in your activity.
-* [Lightbeam](https://addons.mozilla.org/firefox/addon/lightbeam/) - As mentioned above, visualize who's tracking you in real time. To get started, click on the Collusion icon in the bottom-right corner of your browser. (You may need to show the Add-on Bar to see the icon).
-* [NoScript](https://addons.mozilla.org/en-US/firefox/addon/noscript/) - NoScript allows you more control over JavaScript running in your browser. It allows granular control over which scripts you would like to allow to run on any page allowing you to e.g. block JavaScript from third party sites. It really is a very good extension, but it needs to be used with care as this extension is the most likely out of this list to break websites.
-* [Cookie Monster](https://addons.mozilla.org/en-US/firefox/addon/cookie-monster/) - Provides an easy NoScript-style toolbar button for changing domain-specific cookie settings so you can default to forcing session cookies and easily allow them for just the domains where you want "Remember Me" to work.
+- [HTTPS Everywhere](https://www.eff.org/https-everywhere) - As mentioned above, HTTPS Everywhere is a Firefox and Chrome extension that encrypts your communications with many major websites, making your browsing more secure. It is available for Firefox and Chrome bug due to a Chrome bug has far better stability in Firefox.
+- [Adblock Plus](https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/?src=cb-dl-users) - Annoyed by adverts? Troubled by tracking? Bothered by banners? Install Adblock Plus now to regain control of the internet and change the way that you view the web.
+- [Better Privacy](https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/?src=cb-dl-users) - Remove or manage a new and uncommon kind of cookies, better known as LSO's (mentioned above when talking about zombie cookies). The BetterPrivacy safeguard offers various ways to handle Flash-cookies set by Google, YouTube, Ebay and others ...
+- [Ghostery](https://addons.mozilla.org/en-US/firefox/addon/ghostery/?src=cb-dl-users) - Ghostery sees the "invisible" web, detecting trackers, web bugs, pixels, and beacons placed on web pages by Facebook, Google Analytics, and over 1,000 other ad networks, behavioral data providers, web publishers - all companies interested in your activity.
+- [Lightbeam](https://addons.mozilla.org/firefox/addon/lightbeam/) - As mentioned above, visualize who's tracking you in real time. To get started, click on the Collusion icon in the bottom-right corner of your browser. (You may need to show the Add-on Bar to see the icon).
+- [NoScript](https://addons.mozilla.org/en-US/firefox/addon/noscript/) - NoScript allows you more control over JavaScript running in your browser. It allows granular control over which scripts you would like to allow to run on any page allowing you to e.g. block JavaScript from third party sites. It really is a very good extension, but it needs to be used with care as this extension is the most likely out of this list to break websites.
+- [Cookie Monster](https://addons.mozilla.org/en-US/firefox/addon/cookie-monster/) - Provides an easy NoScript-style toolbar button for changing domain-specific cookie settings so you can default to forcing session cookies and easily allow them for just the domains where you want "Remember Me" to work.
 
 In fact, there were 798 Firefox extensions related to Privacy &amp; Security at the time of writing, the four I have selected here are, in my opinion, the cream of the crop. Of course, you may have your own favorites... feel free to let us know.
