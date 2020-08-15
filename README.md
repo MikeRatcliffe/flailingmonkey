@@ -23,8 +23,11 @@ curl -sSL https://get.rvm.io | bash -s stable --ruby
 
 ```bash
 rvm install ruby
+rvm --default use ruby
 gem update --system
 gem install jekyll bundler
+
+bundle install
 ```
 
 If you receive errors about uninstalled packages run this changing the package name as appropriate:
