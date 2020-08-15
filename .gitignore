@@ -5,6 +5,7 @@
 /_site/*
 !/_site
 !/_site/index.html
+!/_site/rss
 .jekyll-cache
 .jekyll-metadata
 
