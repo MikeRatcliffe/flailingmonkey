@@ -45,6 +45,6 @@ bundle exec jekyll serve --trace
 ## Deploy
 
 ```bash
-bundle exec jekyll build
-bundle exec jekyll build -V # Verbose Version
+set JEKYLL_ENV=production && bundle exec jekyll build
+set JEKYLL_ENV=production && bundle exec jekyll build -V # Verbose Version
 ```
