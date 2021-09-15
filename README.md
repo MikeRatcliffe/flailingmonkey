@@ -1,59 +1,34 @@
-# flailingmonkey
+# flailingmonkey.com
 
-## Installing Jekyll
+<div align="center">
+    <img src="static/logos/logo-1024.png" alt="Logo" width='200px' height='200px'/>
+</div>
 
-### Ubuntu
+## Development
 
-```bash
-sudo apt-get install software-properties-common
-sudo apt-add-repository -y ppa:rael-gc/rvm
-sudo apt-get update
-sudo apt-get install rvm
+```shell
+npm install
+gatsby develop
 ```
 
-### OSX
+Starts a development server at http://localhost:8000/
 
-```bash
-brew install gnupg
-gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
-curl -sSL https://get.rvm.io | bash -s stable --ruby
+## Creating a Production Build
+
+```shell
+npm install
+gatsby build
 ```
 
-### Install Jekyll
+You can test the build by running `gatsby serve`, which starts a server at http://localhost:9000/
 
-```bash
-rvm install ruby
-rvm --default use ruby
-gem update --system
-gem install jekyll bundler
+## Copying the Static Files to Your Hosting Server
 
-bundle install
-```
+1. Delete all old files from your hosting server.
+2. Copy all files and folders from `/public` to your web root.
 
-If you receive errors about uninstalled packages run this changing the package name as appropriate:
+## Cleaning Up
 
-```bash
-sudo gem install -n /usr/local/bin bundler:2.1.2
-```
-
-## Develop
-
-```bash
-bundle exec jekyll serve --trace
-```
-
-## Deploy
-
-### Ubuntu / OSX
-
-```bash
-JEKYLL_ENV=production && bundle exec jekyll build
-JEKYLL_ENV=production && bundle exec jekyll build -V # Verbose Version
-```
-
-### Windows
-
-```bash
-set JEKYLL_ENV=production && bundle exec jekyll build
-set JEKYLL_ENV=production && bundle exec jekyll build -V # Verbose Version
+```shell
+npm run clobber
 ```

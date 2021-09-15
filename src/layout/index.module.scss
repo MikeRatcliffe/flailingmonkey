@@ -1,0 +1,40 @@
+html {
+  font-family: Lato;
+  font-size: 20px;
+}
+
+body {
+  margin: 0;
+  background-color: #000;
+
+  a {
+    color: #4a4a4a;
+
+    &:hover {
+      color: #111;
+    }
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 1rem;
+}
+
+main {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1092px;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  padding: 20px;
+}
+
+article {
+  height: 90%;
+}
