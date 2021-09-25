@@ -10,21 +10,21 @@ tags:
   - Web Development
   - Employment
 author: Mike Ratcliffe
-authorAvatar: http://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg
+authorAvatar: https://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg
 authorTwitter: ratcliffe_mike
 ---
 
-This question [popped up on Quora recently](http://www.quora.com/Mozilla/What-is-it-like-to-work-as-an-engineer-at-Mozilla). I have been working on the [Developer Tools Team](https://www.mozilla.org/en-US/firefox/technology/#tools) at Mozilla for over a year now and would love to let you all know what is it like. To see this from my perspective I you will need to know a little about my background.
+This question [popped up on Quora recently](https://www.quora.com/Mozilla/What-is-it-like-to-work-as-an-engineer-at-Mozilla). I have been working on the [Developer Tools Team](https://www.mozilla.org/en-US/firefox/technology/#tools) at Mozilla for over a year now and would love to let you all know what is it like. To see this from my perspective I you will need to know a little about my background.
 
 I have always enjoyed reverse engineering software just to see how it ticks. If you were in the habit of using pokes to gain invulnerability or infinite lives on a Commodore or Acorn computer then I probably helped you cheat. I used to obtain many of my games from magazines because they would send them to me so that I could send them pokes or explain how to complete the latest adventure games.
 
 A few years later Netscape Communicator 4.0 was released and I was looking at the source. I discovered the [about:mozilla](https://www.mozilla.org/book/) page and was impressed by the attitude that they had to open source... after all, the web is the ultimate open platform. I desperately wanted to work for Mozilla but, unfortunately, I believed that Mozilla was an organization full of UNIX bearded academics each trying to show how clever they were. I am not sure where that image came from, but it was very common at the time.
 
-Fast forward 5 years and I was regularly contributing add-ons and fixes to the [osCommerce](http://www.oscommerce.com/) project. I had an online store and as I tweaked my store I shared my changes with the community. I really enjoyed the fact that I was helping make tens of thousands of online stores better every time I submitted a small fix or created an add-on. I made my money working as an admin for over 60,000 users covering hundreds of domains.
+Fast forward 5 years and I was regularly contributing add-ons and fixes to the [osCommerce](https://www.oscommerce.com/) project. I had an online store and as I tweaked my store I shared my changes with the community. I really enjoyed the fact that I was helping make tens of thousands of online stores better every time I submitted a small fix or created an add-on. I made my money working as an admin for over 60,000 users covering hundreds of domains.
 
-Fast forward 10 - 15 years and I had a problem with [Firebug](https://getfirebug.com/). I contacted Joe Hewitt and he said he would take a look. Weeks went by and, not being the patient type, I decided I would take a look myself. I fixed the problem and let Joe know about it... at this point I don't think that the [Firebug Issue List](http://code.google.com/p/fbug/issues/list) existed but I was surprised how quickly it was fixed in the release version. From that point I contributed Firebug fixes on and off for a few years.
+Fast forward 10 - 15 years and I had a problem with [Firebug](https://getfirebug.com/). I contacted Joe Hewitt and he said he would take a look. Weeks went by and, not being the patient type, I decided I would take a look myself. I fixed the problem and let Joe know about it... at this point I don't think that the [Firebug Issue List](https://code.google.com/p/fbug/issues/list) existed but I was surprised how quickly it was fixed in the release version. From that point I contributed Firebug fixes on and off for a few years.
 
-Eventually [Rob Campbell](http://antennasoft.net/robcee/) started to hint that I should start working for Mozilla. Unfortunately, I still felt under-qualified... I was never very academic being able to learn things very quickly for myself but switching off the moment a professor starts a lecture. My [dyslexia](https://en.wikipedia.org/wiki/Characteristics_of_dyslexia) and [ADD](https://en.wikipedia.org/wiki/Attention_deficit_hyperactivity_disorder) had a role to play in that, and besides, I didn't have a UNIX beard.
+Eventually [Rob Campbell](https://antennasoft.net/robcee/) started to hint that I should start working for Mozilla. Unfortunately, I still felt under-qualified... I was never very academic being able to learn things very quickly for myself but switching off the moment a professor starts a lecture. My [dyslexia](https://en.wikipedia.org/wiki/Characteristics_of_dyslexia) and [ADD](https://en.wikipedia.org/wiki/Attention_deficit_hyperactivity_disorder) had a role to play in that, and besides, I didn't have a UNIX beard.
 
 <figure>
 

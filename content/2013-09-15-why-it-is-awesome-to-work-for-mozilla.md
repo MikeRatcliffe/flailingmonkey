@@ -9,7 +9,7 @@ categories:
 tags:
   - Employment
 author: Mike Ratcliffe
-authorAvatar: http://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg
+authorAvatar: https://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg
 authorTwitter: ratcliffe_mike
 ---
 
@@ -19,7 +19,7 @@ Of course, Google and Facebook are also creative and constantly working on aweso
 
 Back in 1997 the Netscape browser was pushing more and more traffic towards AOL's search and other services. It is never any good for a single company to have too much power and control over the internet and if things continued as they were, then it is likely that one company would have "owned" the internet. Could you imagine everybody having to pay a single company for internet access, storing contacts, searches and each page view?
 
-Eventually, Mozilla broke away from AOL Netscape because they believed that the internet should be free and open for everybody. [Mozilla's mission](http://www.mozilla.org/mission/) is not to simply write and maintain Firefox, it is to keep the power of the Web in people’s hands. Firefox is simply a means to an end in accomplishing this.
+Eventually, Mozilla broke away from AOL Netscape because they believed that the internet should be free and open for everybody. [Mozilla's mission](https://www.mozilla.org/mission/) is not to simply write and maintain Firefox, it is to keep the power of the Web in people’s hands. Firefox is simply a means to an end in accomplishing this.
 
 Mozilla does a fantastic job of promoting openness, innovation and opportunity on the Internet. They do this by teaching kids and adults to create web pages, inventing awesome stuff, contributing to web standards and generally trying to make the web a better place. They really are building the future of the internet.
 
@@ -33,4 +33,4 @@ I also think that there is a place for paid software. If somebody is working har
 
 The icing on the cake has to be that everyone that works for Mozilla feels the same way about open source software. There is a unity of purpose at the company that I do not believe exists anywhere else. We don't create awesome stuff just because we have been asked to do it. We create it because we have an awesome idea and have che chance to bring it to life. We code for the joy of coding and no job gets better than that.
 
-Amazingly [everybody can do something for Mozilla](http://www.whatcanidoformozilla.org/) and join the fight keep the internet open... you don't even need to know any programming languages.
+Amazingly [everybody can do something for Mozilla](https://www.whatcanidoformozilla.org/) and join the fight keep the internet open... you don't even need to know any programming languages.

@@ -12,11 +12,11 @@ tags:
   - Firebug
   - Developer Tools
 author: Mike Ratcliffe
-authorAvatar: http://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg
+authorAvatar: https://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg
 authorTwitter: ratcliffe_mike
 ---
 
-We have made a bunch of changes to [Firebug Lite](http://getfirebug.com/lite.html) over the last few months and it is about time we shared them with you. For those that don't know what Firebug Lite is, it is basically a cross browser version of Firebug. It does not have the JavaScript debugging capabilities of Firebug but is excellent for viewing the HTML and DOM structure of web pages.
+We have made a bunch of changes to [Firebug Lite](https://getfirebug.com/lite.html) over the last few months and it is about time we shared them with you. For those that don't know what Firebug Lite is, it is basically a cross browser version of Firebug. It does not have the JavaScript debugging capabilities of Firebug but is excellent for viewing the HTML and DOM structure of web pages.
 
 We have corrected a lot of bugs and added the following enhancements:
 
@@ -36,7 +36,7 @@ We have corrected a lot of bugs and added the following enhancements:
 
   firebug.setAttribute(
     "src",
-    "http://fbug.googlecode.com/svn/lite/branches/firebug1.2/firebug-lite.js"
+    "https://fbug.googlecode.com/svn/lite/branches/firebug1.2/firebug-lite.js"
   );
   document.body.appendChild(firebug);
 
@@ -90,4 +90,4 @@ We have corrected a lot of bugs and added the following enhancements:
 
 - Lite can now be used locally over HTTPS - unfortunately Lite throws a bunch of insecure content errors when used for HTTPS pages. The only workaround is to copy the files to the domain that you wish to debug and to set `firebug.env.css` to point to the copy of the CSS file stored on that domain. Otherwise you just need to click through the warnings when they pop up.
 
-- We have added these enhancements to Firebug Lite but would like to add more. If you have any ideas of which enhancements we should add or if you find any errors in Lite then please [log an enhancement request or issue](http://code.google.com/p/fbug/issues/list)... just don't forget to mention Firebug Lite in the subject line.
+- We have added these enhancements to Firebug Lite but would like to add more. If you have any ideas of which enhancements we should add or if you find any errors in Lite then please [log an enhancement request or issue](https://code.google.com/p/fbug/issues/list)... just don't forget to mention Firebug Lite in the subject line.

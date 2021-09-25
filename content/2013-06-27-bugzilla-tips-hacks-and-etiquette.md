@@ -11,7 +11,7 @@ tags:
   - hacks
   - open source
 author: Mike Ratcliffe
-authorAvatar: http://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg
+authorAvatar: https://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg
 authorTwitter: ratcliffe_mike
 ---
 
@@ -30,9 +30,9 @@ The most useful tip I know of is to set up a keyword search for the quicksearch 
 Or even:
 `bug WONTFIX Inspector` open bugs containing "Inspector" and marked as WONTFIX.
 
-Two lists of quicksearch fields are available. A simplified list can be found [here](http://www.squarefree.com/bugzilla/quicksearch-help.html) and a more complete list can be found [here](https://bugzilla.mozilla.org/page.cgi?id=quicksearch.html).
+Two lists of quicksearch fields are available. A simplified list can be found [here](https://www.squarefree.com/bugzilla/quicksearch-help.html) and a more complete list can be found [here](https://bugzilla.mozilla.org/page.cgi?id=quicksearch.html).
 
-[Mike Beltzner](http://twitter.com/beltzner) created an excellent video explaining some of the ways this feature can be used:
+[Mike Beltzner](https://twitter.com/beltzner) created an excellent video explaining some of the ways this feature can be used:
 
 `youtube: https://www.youtube.com/embed/14W-XguG--U`
 
@@ -42,7 +42,7 @@ If you find yourself interested in a certain area of the Mozilla project e.g. Fi
 
 ## Autolinkification
 
-Bugzilla comments are plain text - so typing &lt;U&gt; will produce less-than, U, greater-than rather than underlined text. However, Bugzilla will automatically make hyperlinks out of certain sorts of text in comments. For example, the text "http://www.bugzilla.org" will be turned into a link: http://www.bugzilla.org. Other strings which get linkified in the obvious manner are:
+Bugzilla comments are plain text - so typing &lt;U&gt; will produce less-than, U, greater-than rather than underlined text. However, Bugzilla will automatically make hyperlinks out of certain sorts of text in comments. For example, the text "https://www.bugzilla.org" will be turned into a link: https://www.bugzilla.org. Other strings which get linkified in the obvious manner are:
 
 1. bug 12345
 2. comment 7
@@ -66,7 +66,7 @@ You are probably still using the default theme. This can be easily remedied:
 - Click <kbd>Preferencies</kbd> &rarr; <kbd>General Preferences</kbd>.
 - Under <kbd>Bugzilla's general appearance (skin)</kbd> select <kbd>Mozilla</kbd>
 
-Now your Bugzilla looks [sexy and you know it](http://www.youtube.com/watch?v=R2iOCHhJVhE)!
+Now your Bugzilla looks [sexy and you know it](https://www.youtube.com/watch?v=R2iOCHhJVhE)!
 
 ## Does your Bugmail make your Eyes Bleed?
 
@@ -98,7 +98,7 @@ There are a few great extensions available that make Bugzilla a more pleasurable
 1. [BugzillaJS](https://addons.mozilla.org/firefox/addon/bugzillajs/): Created by [Gregory Koberger](https://twitter.com/gkoberger) and [Anthony Ricaud](https://twitter.com/rik24d). This extension adds keyboard shortcuts, quick file box, inline image / github previews, relative timestamps, Gravatars and more. More information about features is available on the extensions AMO page. This extension contains almost all of Bugzilla Tweak's features and more. You can contribute to the addon [here](https://github.com/gkoberger/BugzillaJS)
 2. [Bugzilla Tweaks](https://addons.mozilla.org/firefox/addon/bugzilla-tweaks/): Created by [Ehsan Akhgari](https://twitter.com/ehsanakhgari), Dave Lawrence and [Byron Jones](https://twitter.com/globau). This extension adds a bunch of features that do not appear to be documented anywhere. These are features such as adding "Copy Check-in Comment" to the context menu. If anybody knows how to contribute to this extension then please let me know.
 3. [Github tweaks for Bugzilla](https://addons.mozilla.org/firefox/addon/github-tweaks-for-bugzilla/): Created by [Dietrich Ayala](https://twitter.com/dietrich). This extension allows for better Github and Bugzilla integration. On a pull-request page, it adds a new button for submitting the pull-request as an attachment to a bug in bugzilla.mozilla.org. The bug id can be specified by starting your pull request title with "bug ######". Your Bugzilla credentials are pulled out of Firefox's password manager. You can contribute to this extension [here](https://github.com/autonome/Github-Bugzilla-Tweaks).
-4. [Bugzilla TODOs](http://harthur.github.io/bugzilla-todos/): This is not an extension but a really useful live dashboard created by [Heather Arthur](https://twitter.com/harthvader). It contains five tabs (To Review, To Check In, To Nag, To Fix and To Respond) and, because it is live, it is updated automagically. I keep this open as a pinned tab so that I can instantly (via the favicon) see if somebody wants something from me. You can contribute to this handy little web app [here](https://github.com/harthur/bugzilla-todos).
+4. [Bugzilla TODOs](https://harthur.github.io/bugzilla-todos/): This is not an extension but a really useful live dashboard created by [Heather Arthur](https://twitter.com/harthvader). It contains five tabs (To Review, To Check In, To Nag, To Fix and To Respond) and, because it is live, it is updated automagically. I keep this open as a pinned tab so that I can instantly (via the favicon) see if somebody wants something from me. You can contribute to this handy little web app [here](https://github.com/harthur/bugzilla-todos).
 
 ## Attachments
 
@@ -122,11 +122,11 @@ You should also read [Bugzilla’s etiquette guidelines](https://bugzilla.mozill
 
 Some of this information was collected from other websites so it is only fair that I give credit where credit is due:
 
-- [Margaret Leibovic's Bugzilla 101](http://blog.margaretleibovic.com/post/36893756730/bugzilla-101)
-- [Johnath's Bugzilla for Humans](http://blog.johnath.com/2010/02/04/bugzilla-for-humans/)
-- [Bugzilla Tips Wordpress Blog](http://bugzillatips.wordpress.com/)
-- [Jesse Ruderman's Quicksearch Tips](http://www.squarefree.com/bugzilla/quicksearch-help.html)
+- [Margaret Leibovic's Bugzilla 101](https://blog.margaretleibovic.com/post/36893756730/bugzilla-101)
+- [Johnath's Bugzilla for Humans](https://blog.johnath.com/2010/02/04/bugzilla-for-humans/)
+- [Bugzilla Tips Wordpress Blog](https://bugzillatips.wordpress.com/)
+- [Jesse Ruderman's Quicksearch Tips](https://www.squarefree.com/bugzilla/quicksearch-help.html)
 - [Bugzilla Quicksearch](https://bugzilla.mozilla.org/page.cgi?id=quicksearch.html)
-- [The Bugzilla Guide - Hints and Tips](http://www.bugzilla.org/docs/2.18/html/hintsandtips.html)
+- [The Bugzilla Guide - Hints and Tips](https://www.bugzilla.org/docs/2.18/html/hintsandtips.html)
 
 If the comments section below has not loaded below then you probably need to update your browser.

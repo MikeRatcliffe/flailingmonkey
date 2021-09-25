@@ -11,7 +11,7 @@ tags:
   - Firefox
   - Firebug
 author: Mike Ratcliffe
-authorAvatar: http://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg
+authorAvatar: https://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg
 authorTwitter: ratcliffe_mike
 ---
 
@@ -119,7 +119,7 @@ Sometimes the simplest ideas are the best and the concept of the inspector (high
 
 ## MochiKit JavaScript Interpreter
 
-[MochiKit](http://mochi.github.com/mochikit/) is a lightweight JavaScript library written and maintained by Bob Ippolito. It is Inspired by the Python networking framework and Twisted. It uses the concept of deferred execution to allow asynchronous behavior. This has made it very useful in the development of AJAX applications.
+[MochiKit](https://mochi.github.com/mochikit/) is a lightweight JavaScript library written and maintained by Bob Ippolito. It is Inspired by the Python networking framework and Twisted. It uses the concept of deferred execution to allow asynchronous behavior. This has made it very useful in the development of AJAX applications.
 
 Of particular note is its ability to load and manipulate JSON-encoded data sets, and MochiKit.DOM, a set of functions to easily create dynamic page components.
 
@@ -222,4 +222,4 @@ Although there has been lots of work done on Firebug since version 1.0 most of i
 - List of tabs in the toolbar
 - Tab options
 
-Joe Hewitt talks about these things in his blog post [Firebug: A Love Story](http://joehewitt.com/2006/03/15/firebug-a-love-story).
+Joe Hewitt talks about these things in his blog post [Firebug: A Love Story](https://joehewitt.com/2006/03/15/firebug-a-love-story).

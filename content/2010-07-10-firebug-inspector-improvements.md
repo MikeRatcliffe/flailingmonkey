@@ -11,7 +11,7 @@ tags:
   - Firebug
   - Developer Tools
 author: Mike Ratcliffe
-authorAvatar: http://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg
+authorAvatar: https://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg
 authorTwitter: ratcliffe_mike
 ---
 
@@ -34,7 +34,7 @@ Finding solutions for these problems took time and sanity. The solution to point
 
 Since fixing these problems there have only been small issues with the inspector, so there has really not been very much for me to do but one thing has become very apparent... these fixes are not good enough! Apart from the fact that we should never be injecting elements into web pages there are many shortcomings to these fixes. The proxy elements are injected into a page when you click inspect, if a disabled element is moved after you begin inspecting then the proxy and highlighter will be in the wrong position. We could change this to monitor the disabled elements and update the proxies as appropriate but that would cause big performance issues on lots of pages. The biggest problem is with fix number 4...
 
-By choosing CSS styles and setting them to 0 !important we effectively stop the elements from inheriting CSS styles, but the list of elements that we need to do this with is becoming much larger. One of the first styles that we blocked was `-moz-opacity` but then Firefox chose to support `opacity`. Then CSS transforms came along and whichever new CSS attributes come along all of the time. This is what Ryan Wolf discusses [here](http://web.archive.org/web/20111001031820/http://borderstylo.com/posts/177-adding-nodes-to-the-dom-with-style)... he is currently working on the Glass extension (now defunkt) and has had a similar set of experiences in making that extension inspector work.
+By choosing CSS styles and setting them to 0 !important we effectively stop the elements from inheriting CSS styles, but the list of elements that we need to do this with is becoming much larger. One of the first styles that we blocked was `-moz-opacity` but then Firefox chose to support `opacity`. Then CSS transforms came along and whichever new CSS attributes come along all of the time. This is what Ryan Wolf discusses [here](https://web.archive.org/web/20111001031820/https://borderstylo.com/posts/177-adding-nodes-to-the-dom-with-style)... he is currently working on the Glass extension (now defunkt) and has had a similar set of experiences in making that extension inspector work.
 
 I have known for a long time that we would ultimately need to stop injecting the highlighters into the target page and move them into the browsers chrome. It made sense to use a transparent panel and draw shapes on the panel as somebody inspects the page. To do this I created a prototype that used a canvas in a transparent panel to render the shapes and this appeared to work well minus a couple of performance problems. I hit another brick wall with canvas... it is not possible to use transforms on canvas. I had a discussion with a Firefox developer recently who said that it would make sense to use SVG instead because the canvas was just used for displaying geometric shapes. I have since discovered that SVG will also allow transforms to be applied to the shapes that are drawn on it, this is the direction that I am planning on taking the inspector. Here is how I would like it to work:
 

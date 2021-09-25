@@ -11,7 +11,7 @@ tags:
   - Developer Tools
   - Web Development
 author: Mike Ratcliffe
-authorAvatar: http://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg
+authorAvatar: https://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg
 authorTwitter: ratcliffe_mike
 ---
 
@@ -28,4 +28,4 @@ I have used a similar design to add DOM event inspection to Firefox Developer To
 
 Whilst developing this feature I noticed that my workflow changed considerably. I found myself repeatedly looking at the event handlers attached to e.g. a button, clicking the debug icon, adding a breakpoint and clicking the button.
 
-We hope this feature will be useful to you. If you have any idea how we can improve this feature then please let us know via [our feedback channel](http://ffdevtools.uservoice.com/forums/246087-firefox-developer-tools-ideas) or [Bugzilla](https://bugzilla.mozilla.org/enter_bug.cgi?component=Developer%20Tools%3A%20Inspector&product=Firefox&rep_platform=All&op_sys=All).
+We hope this feature will be useful to you. If you have any idea how we can improve this feature then please let us know via [our feedback channel](https://ffdevtools.uservoice.com/forums/246087-firefox-developer-tools-ideas) or [Bugzilla](https://bugzilla.mozilla.org/enter_bug.cgi?component=Developer%20Tools%3A%20Inspector&product=Firefox&rep_platform=All&op_sys=All).

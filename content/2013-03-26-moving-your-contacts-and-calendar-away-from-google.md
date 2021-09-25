@@ -11,7 +11,7 @@ tags:
   - CalDAV
   - CardDAV
 author: Mike Ratcliffe
-authorAvatar: http://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg
+authorAvatar: https://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg
 authorTwitter: ratcliffe_mike
 ---
 
@@ -26,14 +26,14 @@ There are a number of services that allow this kind of synchronization but I hav
 
 ### If you own your own server
 
-Follow the instructions [here](http://software.opensuse.org/download/package?project=isv:ownCloud:community&package=owncloud "Installing ownCloud on your own server").
+Follow the instructions [here](https://software.opensuse.org/download/package?project=isv:ownCloud:community&package=owncloud "Installing ownCloud on your own server").
 
 ### Shared hosting
 
 - In your hosts control panel select the latest version of PHP, for JustHost this is in CPanel under PHP Config.
 - Right-click [here](https://download.owncloud.com/download/community/setup-owncloud.php "ownCloud installer") and save the file to your computer.
-- Copy the file to http://yourdomain.com/setup-owncloud.php
-- Open http://yourdomain.com/setup-owncloud.php in your browser.
+- Copy the file to https://yourdomain.com/setup-owncloud.php
+- Open https://yourdomain.com/setup-owncloud.php in your browser.
 - Add a username and password but **do not click "Next."**
 - Click <kbd>Advanced</kbd> and select your database options. A MySQL DB will be way faster than a SQLite DB.
 - Accept the default options.
@@ -49,16 +49,16 @@ At the time of writing, exporting contacts from Google Contacts as a .vcf file o
 
 A file with the .vcf extension will be saved to the root directory of your phone's internal storage. This file contains all of your contacts including their photos. Transfer this file to your computer via a USB cable or email.
 
-- Go to http://yourdomain.com/owncloud/
+- Go to https://yourdomain.com/owncloud/
 - Click <kbd>Contacts</kbd> &rarr; <kbd>Import</kbd>.
 - Select the file .vcf file that you copied to your computer and click OK to import.
 
 ## Importing Calendar to ownCloud
 
-- Go to [http://www.google.com/calendar/](http://www.google.com/calendar/ "Google Calendar")
+- Go to [https://www.google.com/calendar/](https://www.google.com/calendar/ "Google Calendar")
 - Click <kbd>&#9881;</kbd> &rarr; <kbd>Settings</kbd> &rarr; <kbd>Calendars</kbd> &rarr; <kbd>Export Calendar</kbd>.
 - Save the .ics file to your computer.
-- Go to http://yourdomain.com/owncloud/
+- Go to https://yourdomain.com/owncloud/
 - Click Files and drag the .ics file into the files window in order to upload it.
 - Click on the .ics file.
 - In the Import calendar dialog that appears select "Default calendar" and click import.
@@ -69,14 +69,14 @@ A file with the .vcf extension will be saved to the root directory of your phone
 ### Configure Calendar
 
 - Uninstall the Provider for Google Calendar add-on.
-- Install [SOGo Connector](http://www.sogo.nu/files/downloads/SOGo/Thunderbird/ "SOGo Connector").
-- Install [MoreFunctionsForAddressBook](http://nic-nac-project.org/~kaosmos/morecols-en.html "MoreFunctionsForAddressBook").
+- Install [SOGo Connector](https://www.sogo.nu/files/downloads/SOGo/Thunderbird/ "SOGo Connector").
+- Install [MoreFunctionsForAddressBook](https://nic-nac-project.org/~kaosmos/morecols-en.html "MoreFunctionsForAddressBook").
 - Install the [Lightning extension](https://addons.mozilla.org/en-US/thunderbird/addon/lightning/ "Lightning").
 - In your owncloud calendar copy your calendar's CalDAV link.
 - Back in Thunderbird open the calendar.
 - Click <kbd>File</kbd> &rarr; <kbd>New Calendar</kbd> &rarr; <kbd>On the Network</kbd> &rarr; <kbd>Next</kbd> &rarr; <kbd>CalDAV</kbd>.
 - Type the following into the location field:
-- http://yourdomain/owncloud/remote.php/caldav/calendars/USERNAME/CALENDARNAME (the default calendar name is defaultcalendar).
+- https://yourdomain/owncloud/remote.php/caldav/calendars/USERNAME/CALENDARNAME (the default calendar name is defaultcalendar).
 - Check <kbd>Offline Support</kbd>.
 - Click <kbd>Next</kbd>
 - Give your calendar a name and an email address. The email address is used for email notifications.
@@ -84,7 +84,7 @@ A file with the .vcf extension will be saved to the root directory of your phone
 ### Configure Contacts
 
 - Uninstall the Google Contacts addon.
-- Install [SOGo Connector](http://www.sogo.nu/files/downloads/SOGo/Thunderbird/ "SOGo Connector").
+- Install [SOGo Connector](https://www.sogo.nu/files/downloads/SOGo/Thunderbird/ "SOGo Connector").
 - In Thunderbird open the Address Book.
 - <kbd>File</kbd> &rarr; <kbd>New</kbd> &rarr; <kbd>Remote Address Book</kbd>.
 - Give your address book a name.

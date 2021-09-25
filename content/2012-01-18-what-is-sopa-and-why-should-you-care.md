@@ -11,7 +11,7 @@ tags:
   - Censorship
   - Freedom
 author: Mike Ratcliffe
-authorAvatar: http://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg
+authorAvatar: https://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg
 authorTwitter: ratcliffe_mike
 ---
 
@@ -37,4 +37,4 @@ Khan Academy have done a great job of explaining the details in this video:
 
 `youtube: https://www.youtube.com/embed/OjAb5zPqAlg`
 
-Of course there are more side effects but even the small amount of information above should help you see how huge an issue this is. If you live in the USA then you can sign a petition to stop this [here](http://sopastrike.com/modal/strike-modal/index.html).
+Of course there are more side effects but even the small amount of information above should help you see how huge an issue this is. If you live in the USA then you can sign a petition to stop this [here](https://sopastrike.com/modal/strike-modal/index.html).

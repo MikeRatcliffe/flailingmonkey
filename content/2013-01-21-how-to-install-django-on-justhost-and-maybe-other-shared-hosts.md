@@ -11,7 +11,7 @@ tags:
   - Web Development
   - Hacks
 author: Mike Ratcliffe
-authorAvatar: http://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg
+authorAvatar: https://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg
 authorTwitter: ratcliffe_mike
 ---
 
@@ -33,7 +33,7 @@ Well, it can and here's how:
 ```shell
 mkdir ~/python
 cd ~/python
-wget http://www.python.org/ftp/python/2.7.2/Python-2.7.2.tgz
+wget https://www.python.org/ftp/python/2.7.2/Python-2.7.2.tgz
 tar zxfv Python-2.7.2.tgz
 rm -rf Python-2.7.2.tgz
 find ~/python -type d | xargs chmod 0755
@@ -63,7 +63,7 @@ python -V # This should output "Python 2.7.2"
 ## Install setuptools
 
 ```shell
-wget http://pypi.python.org/packages/source/s/setuptools/setuptools-0.6c11.tar.gz
+wget https://pypi.python.org/packages/source/s/setuptools/setuptools-0.6c11.tar.gz
 tar xzvf setuptools-0.6c11.tar.gz
 rm setuptools-0.6c11.tar.gz
 cd setuptools-0.6c11
@@ -75,7 +75,7 @@ rm -rf setuptools-0.6c11
 ## Install pip
 
 ```shell
-wget http://pypi.python.org/packages/source/p/pip/pip-1.2.1.tar.gz
+wget https://pypi.python.org/packages/source/p/pip/pip-1.2.1.tar.gz
 tar xzvf pip-1.2.1.tar.gz
 rm pip-1.2.1.tar.gz
 cd pip-1.2.1

@@ -15,7 +15,7 @@ tags:
   - Chromium
   - WebKit
 author: Mike Ratcliffe
-authorAvatar: http://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg
+authorAvatar: https://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg
 authorTwitter: ratcliffe_mike
 ---
 
@@ -27,9 +27,9 @@ authorTwitter: ratcliffe_mike
 
 This comprehensive primer on the internal operations of WebKit and Gecko is the result of much research done by Israeli developer Tali Garsiel. Over a few years, she reviewed all the published data about browser internals and spent a lot of time reading web browser source code. She wrote:
 
-> In the years of IE 90% dominance there was nothing much to do but regard the browser as a "black box", but now, with open source browsers having [more than half of the usage share](http://techcrunch.com/2011/08/01/open-web-browsers/), it's a good time to take a peek under the engine's hood and see what's inside a web browser. Well, what's inside are millions of C++ lines...
+> In the years of IE 90% dominance there was nothing much to do but regard the browser as a "black box", but now, with open source browsers having [more than half of the usage share](https://techcrunch.com/2011/08/01/open-web-browsers/), it's a good time to take a peek under the engine's hood and see what's inside a web browser. Well, what's inside are millions of C++ lines...
 
-Tali published her research on [her site](http://taligarsiel.com/), but we knew it deserved a larger audience, so we've cleaned it up and republished it here. As a web developer, **learning the internals of browser operations helps you make better decisions and know the justifications behind development best practices**.
+Tali published her research on [her site](https://taligarsiel.com/), but we knew it deserved a larger audience, so we've cleaned it up and republished it here. As a web developer, **learning the internals of browser operations helps you make better decisions and know the justifications behind development best practices**.
 
 While this is a rather lengthy document, we recommend you spend some time digging in; we guarantee you'll be glad you did.
 
@@ -39,7 +39,7 @@ Web browsers are probably the most widely used software. In this primer, I will 
 
 ### The Browsers We Will Talk About
 
-There are five major browsers used today - Internet Explorer, Firefox, Safari, Chrome and Opera. I will give examples from the open source browsers - Firefox, Chrome and Safari, which is partly open source. According to the [W3C browser statistics](http://www.w3schools.com/browsers/browsers_stats.asp), currently (September 2011), the usage share of Firefox, Safari, Chrome and Opera is almost 80%. So nowdays open source browsers are a substantial part of the browser business.
+There are five major browsers used today - Internet Explorer, Firefox, Safari, Chrome and Opera. I will give examples from the open source browsers - Firefox, Chrome and Safari, which is partly open source. According to the [W3C browser statistics](https://www.w3schools.com/browsers/browsers_stats.asp), currently (September 2011), the usage share of Firefox, Safari, Chrome and Opera is almost 80%. So nowdays open source browsers are a substantial part of the browser business.
 
 ### The Browser's Main Functionality
 
@@ -86,7 +86,7 @@ The responsibility of the rendering engine is well... rendering, that is display
 
 ### Rendering Engines
 
-Our reference browsers - Firefox, Chrome and Safari are built upon two rendering engines. Firefox[^18] uses Gecko - a "home made" Mozilla rendering engine. Both Safari and Chrome use WebKit. WebKit[^19] is an open source rendering engine which started as an engine for the Linux platform and was modified by Apple to support Mac and Windows. See [http://webkit.org/](http://webkit.org/) for more details.
+Our reference browsers - Firefox, Chrome and Safari are built upon two rendering engines. Firefox[^18] uses Gecko - a "home made" Mozilla rendering engine. Both Safari and Chrome use WebKit. WebKit[^19] is an open source rendering engine which started as an engine for the Linux platform and was modified by Apple to support Mac and Windows. See [https://webkit.org/](https://webkit.org/) for more details.
 
 ### The Main Flow
 
@@ -184,7 +184,7 @@ Let's analyze the input `2 + 3 - 1`. The first substring that matches a rule is 
 
 ##### Formal Definitions for Vocabulary and Syntax
 
-Vocabulary is usually expressed by [regular expressions](http://www.regular-expressions.info/). For example our language will be defined as:
+Vocabulary is usually expressed by [regular expressions](https://www.regular-expressions.info/). For example our language will be defined as:
 
 <figure>
 
@@ -197,7 +197,7 @@ MINUS:   -
   <figcaption>Example of our language in BNF</figcaption>
 </figure>
 
-As you see, integers are defined by a regular expression. Syntax is usually defined in a format called [BNF](http://en.wikipedia.org/wiki/Backus%E2%80%93Naur_Form). Our language will be defined as:
+As you see, integers are defined by a regular expression. Syntax is usually defined in a format called [BNF](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_Form). Our language will be defined as:
 
 <figure>
 
@@ -210,7 +210,7 @@ term       := INTEGER | expression
   <figcaption>Language definition in BNF</figcaption>
 </figure>
 
-We said that a language can be parsed by regular parsers if its grammar is a <a id="context_free_grammar"></a>context free grammar. An intuitive definition of a context free grammar is a grammar that can be entirely expressed in BNF. For a formal definition see [http://en.wikipedia.org/wiki/Context-free_grammar](http://en.wikipedia.org/wiki/Context-free_grammar)
+We said that a language can be parsed by regular parsers if its grammar is a <a id="context_free_grammar"></a>context free grammar. An intuitive definition of a context free grammar is a grammar that can be entirely expressed in BNF. For a formal definition see [https://en.wikipedia.org/wiki/Context-free_grammar](https://en.wikipedia.org/wiki/Context-free_grammar)
 
 ##### Types of Parsers
 
@@ -255,11 +255,11 @@ On the whole it's a "soft" syntax, as opposed to XML's stiff and demanding synta
 
 ##### HTML DTD
 
-HTML definition is in a DTD format. This format is used to define languages of the [SGML](http://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language) family. The format contains definitions for all allowed elements, their attributes and hierarchy. As we saw earlier, the HTML DTD doesn't form a context free grammar. There are a few variations of the DTD. The strict mode conforms solely to the specifications but other modes contain support for markup used by browsers in the past. The purpose is backwards compatibility with older content. The current strict DTD is at [http://www.w3.org/TR/html4/strict.dtd](http://www.w3.org/TR/html4/strict.dtd)
+HTML definition is in a DTD format. This format is used to define languages of the [SGML](https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language) family. The format contains definitions for all allowed elements, their attributes and hierarchy. As we saw earlier, the HTML DTD doesn't form a context free grammar. There are a few variations of the DTD. The strict mode conforms solely to the specifications but other modes contain support for markup used by browsers in the past. The purpose is backwards compatibility with older content. The current strict DTD is at [https://www.w3.org/TR/html4/strict.dtd](https://www.w3.org/TR/html4/strict.dtd)
 
 ##### DOM
 
-The output tree - the parse tree is a tree of DOM element and attribute nodes. DOM is short for Document Object Model. It is the object presentation of the HTML document and the interface of HTML elements to the outside world like JavaScript. The root of the tree is the "[document](http://www.w3.org/TR/1998/REC-DOM-Level-1-19981001/level-one-core.html#i-Document)" object.
+The output tree - the parse tree is a tree of DOM element and attribute nodes. DOM is short for Document Object Model. It is the object presentation of the HTML document and the interface of HTML elements to the outside world like JavaScript. The root of the tree is the "[document](https://www.w3.org/TR/1998/REC-DOM-Level-1-19981001/level-one-core.html#i-Document)" object.
 
 The DOM has an almost one to one relation to the markup. Example, this markup:
 
@@ -286,7 +286,7 @@ Would be translated to the following DOM tree:
   <figcaption>Figure 8: DOM tree of the example markup</figcaption>
 </figure>
 
-Like HTML, DOM is specified by the W3C organizationm see [http://www.w3.org/DOM/DOMTR](http://www.w3.org/DOM/DOMTR). It is a generic specification for manipulating documents. A specific module describes HTML specific elements. The HTML definitions can be found here: [http://www.w3.org/TR/2003/REC-DOM-Level-2-HTML-20030109/idl-definitions.html](http://www.w3.org/TR/2003/REC-DOM-Level-2-HTML-20030109/idl-definitions.html). When we say the tree contains DOM nodes, we mean the tree is constructed of elements that implement one of the DOM interfaces. Browsers use concrete implementations that have other attributes used by the browser internally.
+Like HTML, DOM is specified by the W3C organizationm see [https://www.w3.org/DOM/DOMTR](https://www.w3.org/DOM/DOMTR). It is a generic specification for manipulating documents. A specific module describes HTML specific elements. The HTML definitions can be found here: [https://www.w3.org/TR/2003/REC-DOM-Level-2-HTML-20030109/idl-definitions.html](https://www.w3.org/TR/2003/REC-DOM-Level-2-HTML-20030109/idl-definitions.html). When we say the tree contains DOM nodes, we mean the tree is constructed of elements that implement one of the DOM interfaces. Browsers use concrete implementations that have other attributes used by the browser internally.
 
 ##### The Parsing Algorithm
 
@@ -384,7 +384,7 @@ The input to the tree construction stage is a sequence of tokens from the tokeni
 
 ##### Actions When the Parsing is Finished
 
-At this stage the browser will mark the document as interactive and start parsing scripts that are in "deferred" mode - those who should be executed after the document is parsed. The document state will then be set to "complete" and a "load" event will be fired. You can see the full algorithms for tokenization and tree construction in HTML5 specification - [http://www.w3.org/TR/html5/syntax.html#html-parser](http://www.w3.org/TR/html5/syntax.html#html-parser)
+At this stage the browser will mark the document as interactive and start parsing scripts that are in "deferred" mode - those who should be executed after the document is parsed. The document state will then be set to "complete" and a "load" event will be fired. You can see the full algorithms for tokenization and tree construction in HTML5 specification - [https://www.w3.org/TR/html5/syntax.html#html-parser](https://www.w3.org/TR/html5/syntax.html#html-parser)
 
 ##### Browsers Error Tolerance
 
@@ -554,7 +554,7 @@ So web authors beware - unless you want to appear as an example in a WebKit erro
 
 #### CSS Parsing
 
-Remember the parsing concepts in the introduction[^7]? Well, unlike HTML, CSS is a context free grammar and can be parsed using the types of parsers described in the introduction. In fact the CSS specification defines CSS lexical and syntax grammar ([http://www.w3.org/TR/CSS2/grammar.html](http://www.w3.org/TR/CSS2/grammar.html)).
+Remember the parsing concepts in the introduction[^7]? Well, unlike HTML, CSS is a context free grammar and can be parsed using the types of parsers described in the introduction. In fact the CSS specification defines CSS lexical and syntax grammar ([https://www.w3.org/TR/CSS2/grammar.html](https://www.w3.org/TR/CSS2/grammar.html)).
 
 Let's see some examples:
 
@@ -751,7 +751,7 @@ According to CSS spec an inline element must contain either only block elements 
 
 In Firefox, the presentation is registered as a listener for DOM updates. The presentation delegates frame creation to the "FrameConstructor" and the constructor resolves style (see [style computation](#style-computation)) and creates a frame. In WebKit the process of resolving the style and creating a renderer is called "attachment". Every DOM node has an "attach" method. Attachment is synchronous, node insertion to the DOM tree calls the new node "attach" method.
 
-Processing the html and body tags results in the construction of the render tree root. The root render object corresponds to what the CSS spec calls the containing block - the top most block that contains all other blocks. Its dimensions are the viewport - the browser window display area dimensions. Firefox calls it ViewPortFrame and WebKit calls it RenderView. This is the render object that the document point to. The rest of the tree is constructed as a DOM nodes insertion. See CSS2 on this topic - [http://www.w3.org/TR/CSS21/intro.html#processing-model](http://www.w3.org/TR/CSS21/intro.html#processing-model)
+Processing the html and body tags results in the construction of the render tree root. The root render object corresponds to what the CSS spec calls the containing block - the top most block that contains all other blocks. Its dimensions are the viewport - the browser window display area dimensions. Firefox calls it ViewPortFrame and WebKit calls it RenderView. This is the render object that the document point to. The rest of the tree is constructed as a DOM nodes insertion. See CSS2 on this topic - [https://www.w3.org/TR/CSS21/intro.html#processing-model](https://www.w3.org/TR/CSS21/intro.html#processing-model)
 
 #### Style Computation
 
@@ -997,7 +997,7 @@ The browser declarations are least important and the user overrides the author o
 
 ###### Specificity
 
-The selector specificity is defined by the [CSS2 specification](http://www.w3.org/TR/CSS2/cascade.html#specificity) as follows:
+The selector specificity is defined by the [CSS2 specification](https://www.w3.org/TR/CSS2/cascade.html#specificity) as follows:
 
 - Count 1 if the declaration is from is a 'style' attribute rather than a rule with a selector, 0 otherwise (= a)
 - Count the number of ID attributes in the selector (= b)
@@ -1132,7 +1132,7 @@ In Chrome it is more complicated because the renderer is in a different process 
 
 #### The Painting Order
 
-CSS2 defines the order of the painting process - [http://www.w3.org/TR/CSS21/zindex.html](http://www.w3.org/TR/CSS21/zindex.html). This is actually the order in which the elements are stacked in the [stacking contexts](#stacking_contexts). This order affects painting since the stacks are painted from back to front. The stacking order of a block renderer is:
+CSS2 defines the order of the painting process - [https://www.w3.org/TR/CSS21/zindex.html](https://www.w3.org/TR/CSS21/zindex.html). This is actually the order in which the elements are stacked in the [stacking contexts](#stacking_contexts). This order affects painting since the stacks are painted from back to front. The stacking order of a block renderer is:
 
 1. background color
 2. background image
@@ -1174,11 +1174,11 @@ while (!mExiting)
 
 #### The Canvas
 
-According to [CCS2 specification](http://www.w3.org/TR/CSS21/intro.html#processing-model), the term canvas describes "the space where the formatting structure is rendered." - where the browser paints the content. The canvas is infinite for each dimension of the space but browsers choose an initial width based on the dimensions of the viewport. According to [http://www.w3.org/TR/CSS2/zindex.html](http://www.w3.org/TR/CSS2/zindex.html), the canvas is transparent if contained within another, and given a browser defined color if it is not.
+According to [CCS2 specification](https://www.w3.org/TR/CSS21/intro.html#processing-model), the term canvas describes "the space where the formatting structure is rendered." - where the browser paints the content. The canvas is infinite for each dimension of the space but browsers choose an initial width based on the dimensions of the viewport. According to [https://www.w3.org/TR/CSS2/zindex.html](https://www.w3.org/TR/CSS2/zindex.html), the canvas is transparent if contained within another, and given a browser defined color if it is not.
 
 #### CSS Box Model
 
-The [CSS box model](http://www.w3.org/TR/CSS2/box.html) describes the rectangular boxes that are generated for elements in the document tree and laid out according to the visual formatting model. Each box has a content area (e.g., text, an image, etc.) and optional surrounding padding, border, and margin areas.
+The [CSS box model](https://www.w3.org/TR/CSS2/box.html) describes the rectangular boxes that are generated for elements in the document tree and laid out according to the visual formatting model. Each box has a content area (e.g., text, an image, etc.) and optional surrounding padding, border, and margin areas.
 
 <figure>
 
@@ -1200,7 +1200,7 @@ none:   no box is generated.
   <figcaption>Display property possible values</figcaption>
 </figure>
 
-The default is inline but the browser style sheet set other defaults. For example - the default display for "div" element is block. You can find a default style sheet example here [http://www.w3.org/TR/CSS2/sample.html](http://www.w3.org/TR/CSS2/sample.html)
+The default is inline but the browser style sheet set other defaults. For example - the default display for "div" element is block. You can find a default style sheet example here [https://www.w3.org/TR/CSS2/sample.html](https://www.w3.org/TR/CSS2/sample.html)
 
 #### Positioning Scheme
 
@@ -1348,22 +1348,22 @@ Although the green div comes before the red one, and would have been painted bef
 
 ### Resources
 
-[^1]: Grosskurth, Alan. [A Reference Architecture for Web Browsers.](http://grosskurth.ca/papers/browser-refarch.pdf)
+[^1]: Grosskurth, Alan. [A Reference Architecture for Web Browsers.](https://grosskurth.ca/papers/browser-refarch.pdf)
 [^2]: Aho, Sethi, Ullman, [Compilers: Principles, Techniques, and Tools (aka the "Dragon book"), Addison-Wesley, 1986](https://www.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811/ref=sr_1_1?s=books&ie=UTF8&qid=1476980885&sr=1-1)
-[^3]: Rick Jelliffe. [The Bold and the Beautiful: two new drafts for HTML 5.](http://broadcast.oreilly.com/2009/05/the-bold-and-the-beautiful-two.html)
+[^3]: Rick Jelliffe. [The Bold and the Beautiful: two new drafts for HTML 5.](https://broadcast.oreilly.com/2009/05/the-bold-and-the-beautiful-two.html)
 [^4]: L. David Baron, [Faster HTML and CSS: Layout Engine Internals for Web Developers (Google tech talk video).](https://www.youtube.com/watch?v=a2_6bGNZ7bA)
-[^5]: L. David Baron, [Faster HTML and CSS: Layout Engine Internals for Web Developers.](http://dbaron.org/talks/2008-11-12-faster-html-and-css/slide-6.xhtml)
-[^6]: L. David Baron, [Mozilla's Layout Engine.](http://www.mozilla.org/newlayout/doc/layout-2006-07-12/slide-6.xhtml)
-[^7]: L. David Baron, [Mozilla Style System Documentation.](http://www.mozilla.org/newlayout/doc/style-system.html)
-[^8]: Chris Waterson, [Notes on HTML Reflow.](http://www.mozilla.org/newlayout/doc/reflow.html)
-[^9]: Chris Waterson, [Gecko Overview.](http://www.mozilla.org/newlayout/doc/gecko-overview.htm)
+[^5]: L. David Baron, [Faster HTML and CSS: Layout Engine Internals for Web Developers.](https://dbaron.org/talks/2008-11-12-faster-html-and-css/slide-6.xhtml)
+[^6]: L. David Baron, [Mozilla's Layout Engine.](https://www.mozilla.org/newlayout/doc/layout-2006-07-12/slide-6.xhtml)
+[^7]: L. David Baron, [Mozilla Style System Documentation.](https://www.mozilla.org/newlayout/doc/style-system.html)
+[^8]: Chris Waterson, [Notes on HTML Reflow.](https://www.mozilla.org/newlayout/doc/reflow.html)
+[^9]: Chris Waterson, [Gecko Overview.](https://www.mozilla.org/newlayout/doc/gecko-overview.htm)
 [^10]: Alexander Larsson, [The life of an HTML HTTP request.](https://developer.mozilla.org/en/The_life_of_an_HTML_HTTP_request)
-[^11]: David Hyatt, [Implementing CSS (part 1)](http://weblogs.mozillazine.org/hyatt/archives/cat_safari.html)
-[^12]: David Hyatt, [An Overview of WebCore](http://weblogs.mozillazine.org/hyatt/WebCore/chapter2.html)
-[^13]: David Hyatt, [WebCore Rendering](http://webkit.org/blog/114/)
+[^11]: David Hyatt, [Implementing CSS (part 1)](https://weblogs.mozillazine.org/hyatt/archives/cat_safari.html)
+[^12]: David Hyatt, [An Overview of WebCore](https://weblogs.mozillazine.org/hyatt/WebCore/chapter2.html)
+[^13]: David Hyatt, [WebCore Rendering](https://webkit.org/blog/114/)
 [^14]: David Hyatt, [The FOUC Problem](https://webkit.org/blog/66/the-fouc-problem/)
-[^15]: [HTML 4.01 Specification.](http://www.w3.org/TR/html4/)
-[^16]: [W3C HTML5 Specification.](http://dev.w3.org/html5/spec/Overview.html)
-[^17]: [Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification.](http://www.w3.org/TR/CSS2/)
+[^15]: [HTML 4.01 Specification.](https://www.w3.org/TR/html4/)
+[^16]: [W3C HTML5 Specification.](https://dev.w3.org/html5/spec/Overview.html)
+[^17]: [Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification.](https://www.w3.org/TR/CSS2/)
 [^18]: [How to build Firefox.](https://developer.mozilla.org/Build_Documentation)
-[^19]: [How to build WebKit.](http://webkit.org/building/build.html)
+[^19]: [How to build WebKit.](https://webkit.org/building/build.html)

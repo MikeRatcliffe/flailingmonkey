@@ -11,17 +11,17 @@ tags:
   - Thunderbird
   - Developer Tools
 author: Mike Ratcliffe
-authorAvatar: http://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg
+authorAvatar: https://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg
 authorTwitter: ratcliffe_mike
 ---
 
-I recently discovered that it is possible to use [Firefox Developer Tools](https://developer.mozilla.org/docs/Tools) with [Thunderbird](http://www.mozilla.org/thunderbird/). [Philipp Kewisch](https://twitter.com/pkewisch) has done a fantastic job of his Google Summer of Code 2013 Project to bring Firefox Developer Tools to Thunderbird.
+I recently discovered that it is possible to use [Firefox Developer Tools](https://developer.mozilla.org/docs/Tools) with [Thunderbird](https://www.mozilla.org/thunderbird/). [Philipp Kewisch](https://twitter.com/pkewisch) has done a fantastic job of his Google Summer of Code 2013 Project to bring Firefox Developer Tools to Thunderbird.
 
 Starting with Thunderbird 24.0a1 and a matching version of [Firefox](https://www.mozilla.org/firefox/fx/#desktop), it is possible to debug Thunderbird code using Firefox Developer Tools. If your version of Thunderbird is 14.x then please go to <kbd>Help</kbd> &rarr; <kbd>About Thunderbird</kbd> and allow it to update.
 
 For best results you should use the latest nightly versions of both Thunderbird and Firefox. At the very least the version numbers should match. Here is how to get things up and running using the latest nightlies:
 
-- Download the latest [Thunderbird Nightly](http://ftp.mozilla.org/pub/mozilla.org/thunderbird/nightly/latest-comm-central/).
+- Download the latest [Thunderbird Nightly](https://ftp.mozilla.org/pub/mozilla.org/thunderbird/nightly/latest-comm-central/).
 - Start Thunderbird.
 - Select <kbd>Tools</kbd> &rarr; <kbd>Allow Remote Debugging</kbd>.
 
@@ -32,7 +32,7 @@ For best results you should use the latest nightly versions of both Thunderbird 
   <figcaption>Thunderbird allow remote debugging</figcaption>
 </figure>
 
-- Download the same version of [Firefox Nightly](http://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/latest-trunk/) as you did Thunderbird.
+- Download the same version of [Firefox Nightly](https://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/latest-trunk/) as you did Thunderbird.
 - Start Firefox.
 - Press <kbd>Ctrl</kbd> &rarr; <kbd>Shift</kbd> &rarr; <kbd>K</kbd> to open the toolbox.
 - Click <kbd>&#9881;</kbd> to open the developer tools options panel.

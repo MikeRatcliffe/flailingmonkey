@@ -11,7 +11,7 @@ tags:
   - Developer Tools
   - Web Development
 author: Mike Ratcliffe
-authorAvatar: http://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg
+authorAvatar: https://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg
 authorTwitter: ratcliffe_mike
 ---
 
@@ -20,7 +20,7 @@ The DevTools Team recently met up in London to talk about, and generally hack on
 
 ## The Debugger Team a.k.a. Team Minotaur
 
-Rob Campbell talked about how to build a Jetpack addon using Scratchpad. They have managed to get [Firefox chrome debugging](http://blog.astithas.com/2012/10/debugging-firefox.html "Firefox chrome debugging") working... it is still work in progress but it will be extremely useful for debugging Firefox OS etc. Mihai Sucan managed to get the Web Console working to log errors, network requests etc from a [Gaia](https://wiki.mozilla.org/Gaia "Gaia") installation. They even managed to step through CoffeeScript using sourcemaps!
+Rob Campbell talked about how to build a Jetpack addon using Scratchpad. They have managed to get [Firefox chrome debugging](https://blog.astithas.com/2012/10/debugging-firefox.html "Firefox chrome debugging") working... it is still work in progress but it will be extremely useful for debugging Firefox OS etc. Mihai Sucan managed to get the Web Console working to log errors, network requests etc from a [Gaia](https://wiki.mozilla.org/Gaia "Gaia") installation. They even managed to step through CoffeeScript using sourcemaps!
 
 Not debugger related but also by a member of that team, Victor Porof demoed WebGL live shader editing using scratchpad.
 
@@ -43,7 +43,7 @@ Mark Goodwin has rewritten the [Command Line](https://developer.mozilla.org/docs
 ## The DevTools API
 
 Before I say anything about this API I would like to add that it is so early alpha that it is a long way away from being merged with Firefox's main branches. Everything here is subject to change so don't use it, at least no until we have everything working properly!
-Paul Rouget has also blogged about the [DevTools Toolbox](http://paulrouget.com/e/devtools-toolbox/ "The DevTools Toolbox") in a little less detail. I stole the images on this page from him to save a little time... thanks Paul.
+Paul Rouget has also blogged about the [DevTools Toolbox](https://paulrouget.com/e/devtools-toolbox/ "The DevTools Toolbox") in a little less detail. I stole the images on this page from him to save a little time... thanks Paul.
 
 I mentioned earlier that we will be moving to panels similar to Firebug's. Of course, a lot of people like our sidebar so we didn't want to lose that. Unfortunately, if every tool was allowed to choose how and where it's panels are opened we very quickly have no space for the content area, we call this phenomena "The DevTools Donut."
 

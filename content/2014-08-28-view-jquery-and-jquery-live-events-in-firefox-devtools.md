@@ -12,7 +12,7 @@ tags:
   - Web Development
   - jQuery
 author: Mike Ratcliffe
-authorAvatar: http://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg
+authorAvatar: https://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg
 authorTwitter: ratcliffe_mike
 ---
 
@@ -26,7 +26,7 @@ function() {
 };
 ```
 
-Numerous facepalms later and we now have support for jQuery and jQuery Live events. This support will be available in [tonight's nightly](http://nightly.mozilla.org/):
+Numerous facepalms later and we now have support for jQuery and jQuery Live events. This support will be available in [tonight's nightly](https://nightly.mozilla.org/):
 
 <figure>
 
@@ -72,7 +72,7 @@ var parser = {
       override: {
       // The following can be overridden:
         type: "click",
-        origin: "http://www.mozilla.com",
+        origin: "https://www.mozilla.com",
         searchString: 'onclick="doSomething()"',
         DOM0: true,
         capturing: true

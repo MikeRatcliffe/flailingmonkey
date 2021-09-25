@@ -11,13 +11,13 @@ tags:
   - Firefox
   - Developer Tools
 author: Mike Ratcliffe
-authorAvatar: http://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg
+authorAvatar: https://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg
 authorTwitter: ratcliffe_mike
 ---
 
 If you have ever used the application cache you will probably be familiar with how easy it is to break offline functionality and how difficult it is to work out why things are broken. With a large offline web app finding the source of problems can be an almost insurmountable task.
 
-I guess that what I am saying is that [the application cache is a douchebag](http://alistapart.com/article/application-cache-is-a-douchebag). I completely understand that if there is an error in your application's manifest you probably don't want your users to be confronted with a bunch of error messages but something needs to be done.
+I guess that what I am saying is that [the application cache is a douchebag](https://alistapart.com/article/application-cache-is-a-douchebag). I completely understand that if there is an error in your application's manifest you probably don't want your users to be confronted with a bunch of error messages but something needs to be done.
 
 Because displaying a bunch of errors about a broken cache manifest is probably undesirable we have decided to create a developer tool that lets you know if you have a problem with your manifest. The main problem we have is that the Toolbox is already becoming crowded and we are just getting started.
 
@@ -30,7 +30,7 @@ Because displaying a bunch of errors about a broken cache manifest is probably u
 
 In order to avoid cluttering the Toolbox we have used the Firefox Command Line. The command line is a place where we can add as many tools as we like without cluttering the interface. To open the Developer Toolbar press <kbd>shift</kbd> + <kbd>f2</kbd> or select <kbd>Developer Toolbar</kbd> from the web developer menu.
 
-The appcache commands are available in [Firefox Nightly](http://nightly.mozilla.org/)
+The appcache commands are available in [Firefox Nightly](https://nightly.mozilla.org/)
 
 To list available appcache commands type "help appcache" in the developer toolbar.
 

@@ -11,11 +11,11 @@ tags:
   - Firefox
   - Developer Tools
 author: Mike Ratcliffe
-authorAvatar: http://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg
+authorAvatar: https://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg
 authorTwitter: ratcliffe_mike
 ---
 
-At the beginning of April [Alex Limi](http://limi.net/) decided that we should [remove the Enable JavaScript checkbox](https://bugzilla.mozilla.org/show_bug.cgi?id=851702) from Firefox's preferences dialog. His reasoning was that clearing that checkbox breaks a huge amount of websites and therefore breaks the web.
+At the beginning of April [Alex Limi](https://limi.net/) decided that we should [remove the Enable JavaScript checkbox](https://bugzilla.mozilla.org/show_bug.cgi?id=851702) from Firefox's preferences dialog. His reasoning was that clearing that checkbox breaks a huge amount of websites and therefore breaks the web.
 
 Alex was completely correct and I wholeheartedly agree with the removal of this option but if you look at the bug's comments you will see that a bunch of people are not so happy with this decision. Well, we have news for you. We have just landed a change that [adds a tab specific version of this option](https://bugzilla.mozilla.org/show_bug.cgi?id=864249) to the Firefox Developer Tools preferences panel.
 
