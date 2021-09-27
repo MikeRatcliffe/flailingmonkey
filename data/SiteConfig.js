@@ -22,7 +22,7 @@ const config = {
   userGitHub: "MikeRatcliffe",
   userLocation: "Corby, England",
   userAvatar:
-    "http://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg",
+    "https://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg",
   userDescription:
     "Software Engineer specializing in Browser related stuff. Open source advocate, web dev. JavaScript fanatic, CSS tinkerer loves HTML5 & semicolons, hates XUL.",
   copyright: `${siteTitle} © ${year}`,
