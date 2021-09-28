@@ -28,7 +28,7 @@ This kind of limited "live" setup just isn't for me... I want a full Linux relea
 - Can be booted on PCs and my MacBook Pro Retina (2016 model).
 - WIFI should work on most PCs and my MacBook Pro Retina (2016 model).
 
-It really should be completely indistinguishable from Linux installed from the hard disk. Sure, it will run a little more slowly due to the thumb drives limitations but I want a useable OS.
+It really should be completely indistinguishable from Linux installed on the hard disk. Sure, it will run a little more slowly due to the thumb drives limitations but I want a useable OS.
 
 This shouldn't be so hard should it? As it turns out, MacBooks make this hard. This is because they don't follow the same EFI model as other vendors, available drivers for their WIFI cards don't tend to come with Linux flavours by default.
 
