@@ -4,6 +4,8 @@
     <img src="static/logos/logo-1024.png" alt="Logo" width='200px' height='200px'/>
 </div>
 
+[![Build and Deploy](https://github.com/MikeRatcliffe/flailingmonkey/actions/workflows/build-and-deploy.yaml/badge.svg)](https://github.com/MikeRatcliffe/flailingmonkey/actions/workflows/build-and-deploy.yaml)
+
 ## Development
 
 ```shell
