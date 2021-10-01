@@ -26,8 +26,8 @@ const config = {
   userDescription:
     "Software Engineer specializing in Browser related stuff. Open source advocate, web dev. JavaScript fanatic, CSS tinkerer loves HTML5 & semicolons, hates XUL.",
   copyright: `${siteTitle} © ${year}`,
-  themeColor: "#c62828",
-  backgroundColor: "red",
+  themeColor: "#FFFFFF",
+  backgroundColor: "#000000",
 };
 
 // Validate
