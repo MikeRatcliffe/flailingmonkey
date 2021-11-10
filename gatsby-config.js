@@ -113,6 +113,7 @@ module.exports = {
         ],
       },
     },
+    "gatsby-plugin-draft",
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {

@@ -12,6 +12,7 @@ tags:
 author: Mike Ratcliffe
 authorAvatar: https://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg
 authorTwitter: ratcliffe_mike
+draft: true
 ---
 
 I have been an avid Firefox user since 2000 (back then it was called Netscape). I love Mozilla and all that it stands for. 13 years back I even moved my family from Switzerland to the UK so that I could continue working for Mozilla.
