@@ -17,8 +17,6 @@ draft: false
 
 I have been an avid Firefox user since 2000 (back then it was called Netscape). I love Mozilla and all that it stands for. 13 years back I even moved my family from Switzerland to the UK so that I could continue working for Mozilla.
 
-When my manager found out that I was going to adopt 3 baby boys he made a throwaway remark that I would either need to rent office space somewhere or get a loft conversion. I took that to heart and paid £60,000 to convert my loft.
-
 I am well known in the area that I live in for promoting Firefox all of the time. When we leave the house we often dress our kids in Firefox clothes and all three of my boys have Firefox posters and stickers all over their walls.
 
 We went to the zoo a couple of weeks ago and all they cared about was seeing the red panda.
