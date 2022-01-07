@@ -138,6 +138,6 @@ Their implementation really is great and it implements everything I wanted and m
 
 The truth is that Brendan would have known about these things and knew that Mozilla wasn't willing to take the risk so he decided to spin up a company that would. The people at Brave haven't only managed to pull it off... they have pulled it off with swagger.
 
-I just want to let the ladies and gentlemen at Brave that they have done a great job in creating the Brave Browser.
+I just want to let the ladies and gentlemen at Brave know that they have done a great job in creating the Brave Browser.
 
 I am very happy to be a member of this new family!

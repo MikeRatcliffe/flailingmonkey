@@ -11,8 +11,7 @@ const Bio = ({ config, expanded }) => (
     />
     <div>
       <p className={styles.text}>
-        Written by <strong>{config.userName}</strong> who lives and works in
-        Corby, England building useful things.
+        Written by <strong>{config.userName}</strong> who lives and works in England building useful things.
       </p>
       <Follow
         username={config.userTwitter}

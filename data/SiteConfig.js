@@ -20,7 +20,7 @@ const config = {
   userEmail: "michael@ratcliffefamily.org",
   userTwitter: "ratcliffe_mike",
   userGitHub: "MikeRatcliffe",
-  userLocation: "Corby, England",
+  userLocation: "England",
   userAvatar:
     "https://www.gravatar.com/avatar/7de9609bb8d1394e8f6236bd0fac2d7b.jpg",
   userDescription:
