@@ -73,7 +73,7 @@ As the company grew there was also more and more bureaucracy involved and any su
 
 Developers were no longer given the time to be creative. You just had to work on an endless line of bugs and had very little input when it came to the creative process.
 
-This is where Mozilla began to lose it's soul. We have seen the integration of Pocket and many failed attempts at integrating things like video conferencing. Adverts were even added to the `about:newtab` page.
+This is where Mozilla began to lose its soul. We have seen the integration of Pocket and many failed attempts at integrating things like video conferencing. Adverts were even added to the `about:newtab` page.
 
 Firefox looks more and more like Chrome. The rational behind making these changes is that it makes it easier for people to migrate from Chrome to Firefox. In my opinion the problem is that the people Firefox should be attracting are people that want something _different_ from Chrome so this is losing them users rather than gaining them.
 
@@ -96,7 +96,7 @@ Around 2015 Mozilla dropped support for Firefox OS. This was a relief to me beca
 
 At this point I suggested that we should stop maintaining and continually rewriting our codebase. It would make a lot more sense to migrate to the Chromium codebase because that is maintained by Google. Doing this would allow Mozilla to free up a whole army of developers to work creatively on various projects with the aim of bringing in that elusive non-Google revenue stream... kind of like a gigantic start-up. Not only that, the browser would look and act the same from a user's perspective.
 
-This idea was also dismissed as being too risky so I suggested creating a second browser that implemented these things on it's own terms. This idea was discarded because it was also too risky.
+This idea was also dismissed as being too risky so I suggested creating a second browser that implemented these things on its own terms. This idea was discarded because it was also too risky.
 
 To be honest it was very frustrating that my ideas were constantly dismissed. I have always intuitively known what people want from a product point of view but I know that many people are make their living by making those decisions.
 
@@ -109,9 +109,9 @@ To be honest it was very frustrating that my ideas were constantly dismissed. I 
   <figcaption>Laid off</figcaption>
 </figure>
 
-I was part of Mozilla's first round of mass layoffs in 2020. I am first to admit that I felt betrayed as I had given my heart and soul to the company for such a long time. It wasn't just a job to me, it was what I believed in and a huge part of my lifestyle. At the same time, the writing had been on the wall for some time. Mozilla had lost it's way and had become _very_ different from the ground-breaking company that it used to be.
+I was part of Mozilla's first round of mass layoffs in 2020. I am first to admit that I felt betrayed as I had given my heart and soul to the company for such a long time. It wasn't just a job to me, it was what I believed in and a huge part of my lifestyle. At the same time, the writing had been on the wall for some time. Mozilla had lost its way and had become _very_ different from the ground-breaking company that it used to be.
 
-Many of us were surprised that most of the layoffs were senior developers and that made us employees acutely aware that the company was sacrificing senior developers with the goal of reducing it's financial obligations. With that came the realization that it wasn't a personal thing, it was an attempt to save the company.
+Many of us were surprised that most of the layoffs were senior developers and that made us employees acutely aware that the company was sacrificing senior developers with the goal of reducing its financial obligations. With that came the realization that it wasn't a personal thing, it was an attempt to save the company.
 
 ## A Brave New World
 
