@@ -1,5 +1,5 @@
 ---
-date: 2021-01-07
+date: 2022-01-07
 title: Why I Switched From Firefox to Brave After 21 Years
 thumbnail: ./images/why-i-switched-from-firefox-to-brave-after-21-years.png
 featuredImage: ./images/why-i-switched-from-firefox-to-brave-after-21-years-featured-image.png
