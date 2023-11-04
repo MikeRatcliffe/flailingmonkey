@@ -1,8 +1,8 @@
-import React from 'react'
-import { useStaticQuery, graphql, Link } from 'gatsby'
-import _ from 'lodash'
+import React from "react";
+import { useStaticQuery, graphql, Link } from "gatsby";
+import _ from "lodash";
 
-const Categories = props => {
+const Categories = (props) => {
   const data = useStaticQuery(graphql`
     query {
       allMarkdownRemark(limit: 2000) {
@@ -12,11 +12,11 @@ const Categories = props => {
         }
       }
     }
-  `)
+  `);
 
   return (
     <>
-      {data.allMarkdownRemark.group.map(category => (
+      {data.allMarkdownRemark.group.map((category) => (
         <li key={category.fieldValue}>
           <Link
             to={`/${_.kebabCase(category.fieldValue)}`}
@@ -29,7 +29,7 @@ const Categories = props => {
         </li>
       ))}
     </>
-  )
-}
+  );
+};
 
-export default Categories
+export default Categories;
