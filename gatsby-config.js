@@ -27,7 +27,6 @@ module.exports = {
       resolve: "gatsby-plugin-sass",
     },
     "gatsby-plugin-htaccess",
-    "gatsby-plugin-fontawesome-css",
     "gatsby-plugin-image",
     {
       resolve: "gatsby-source-filesystem",
@@ -111,13 +110,6 @@ module.exports = {
           "gatsby-remark-autolink-headers",
           "gatsby-remark-prismjs",
         ],
-      },
-    },
-    "gatsby-plugin-draft",
-    {
-      resolve: "gatsby-plugin-google-analytics",
-      options: {
-        trackingId: siteConfig.googleAnalyticsID,
       },
     },
     {
