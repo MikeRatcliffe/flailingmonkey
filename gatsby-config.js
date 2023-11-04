@@ -187,10 +187,7 @@ module.exports = {
             },
             query: `
             {
-              allMarkdownRemark(
-                limit: 1000,
-                sort: { order: DESC, fields: [frontmatter___date] },
-              ) {
+              allMarkdownRemark(limit: 1000, sort: {frontmatter: {date: DESC}}) {
                 edges {
                   node {
                     excerpt
@@ -203,10 +200,7 @@ module.exports = {
                     frontmatter {
                       featuredImage {
                         childImageSharp {
-                          gatsbyImageData(
-                            quality: 100
-                            layout: CONSTRAINED
-                          )
+                          gatsbyImageData(quality: 100, layout: CONSTRAINED)
                         }
                       }
                       title

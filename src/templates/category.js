@@ -23,8 +23,8 @@ export const pageQuery = graphql`
   query CategoryPage($category: String) {
     allMarkdownRemark(
       limit: 1000
-      sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { categories: { in: [$category] } } }
+      sort: {frontmatter: {date: DESC}}
+      filter: {frontmatter: {categories: {in: [$category]}}}
     ) {
       totalCount
       edges {
