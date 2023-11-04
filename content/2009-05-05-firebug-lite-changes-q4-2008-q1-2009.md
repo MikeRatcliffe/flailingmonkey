@@ -90,4 +90,4 @@ We have corrected a lot of bugs and added the following enhancements:
 
 - Lite can now be used locally over HTTPS - unfortunately Lite throws a bunch of insecure content errors when used for HTTPS pages. The only workaround is to copy the files to the domain that you wish to debug and to set `firebug.env.css` to point to the copy of the CSS file stored on that domain. Otherwise you just need to click through the warnings when they pop up.
 
-- We have added these enhancements to Firebug Lite but would like to add more. If you have any ideas of which enhancements we should add or if you find any errors in Lite then please [log an enhancement request or issue](https://code.google.com/p/fbug/issues/list)... just don't forget to mention Firebug Lite in the subject line. xxx
+- We have added these enhancements to Firebug Lite but would like to add more. If you have any ideas of which enhancements we should add or if you find any errors in Lite then please [log an enhancement request or issue](https://code.google.com/p/fbug/issues/list)... just don't forget to mention Firebug Lite in the subject line.
